@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;800&display=swap');
+
+:root {
+    --highlight-color: hsl(25, 97%, 53%);
+}
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Public Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    margin: 150px auto;
+    width: 350px;
+    height: 290px;
+    border-radius: 30px;
+    background-color: hsl(213, 19%, 18%);
+}
+
+.icon {
+    margin-top: 10px;
+    margin-left: 30px;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: hsl(216, 12%, 8%);
+}
+
+.icon svg {
+    margin: 12px 11px;
+}
+
+.title {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.text {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 35px;
+    width: 300px;
+    font-size: 16px;
+}
+
+.title,
+.button {
+    color: #fff;
+}
+
+.button {
+    background-color: var(--highlight-color, orange);
+    width: 250px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 15px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.button:hover {
+    color: var(--highlight-color, orange);
+    background-color: #fff;
+    transition: 2s;
+}
+
+.classification {
+    margin-top: 10px;
+}
+
+.classification input {
+    display: none;
+}
+
+.classification input:checked {
+    background-color: blueviolet;
+}
+
+
+.form {
+    display: flex;
+}
+
+.option {
+    margin: 10px;
+    padding: 5px;
+    width: 30px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(216, 12%, 8%);
+}
+
+.option:hover {
+    transition: 2s;
+    background-color:var(--highlight-color, orange);
+}
+
+.option:checked {
+    background-color: #fff;
+}
+
+.second-page-icon {
+    margin-left: 84px;
+}
+
+.second-page-ranking {
+    color: var(--highlight-color, orange);
+    font-weight: 100;
+    background-color: hsl(216, 12%, 8%);
+    width: 190px;
+    height: 20px;
+    padding-left: 15px;
+    border-radius: 20px;
+    margin: 10px auto;
+}
+
+.second-page-text {
+    text-align: center;
+}
+
+
